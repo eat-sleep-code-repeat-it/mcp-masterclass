@@ -36,11 +36,14 @@ taskkill /F /IM claude.exe
 ```bash
 mcp install weather.py
 ```
-## Create a mcp client
+## Connect an MCP Client to an MCP Server locally
 
 ```bash
 uv run client.py
 ```
-
+## connect an MCP client to an MCP Server using NPX
+```bash
+uv run client_npx.py
+```
 
 
