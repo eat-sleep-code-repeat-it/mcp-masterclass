@@ -36,6 +36,11 @@ taskkill /F /IM claude.exe
 ```bash
 mcp install weather.py
 ```
+## Create a mcp client
+
+```bash
+uv run client.py
+```
 
 
 
