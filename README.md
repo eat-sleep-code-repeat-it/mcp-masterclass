@@ -1,4 +1,4 @@
-# MCP
+# MCP Quick Start
 
 ```bash
 uv init mcp-masterclass
