@@ -1,4 +1,7 @@
-# MCP
+# MCP Master Class
+
+https://github.com/henryhabib/mcpserverexample
+
 
 ```bash
 uv init mcp-masterclass
@@ -8,8 +11,10 @@ git branch -m master main
 git remote add origin https://github.com/eat-sleep-code-repeat-it/mcp-masterclass.git
 uv venv
 .venv\Scripts\activate
+
 uv add mcp[cli]
 mcp dev weather.py
+
 # claude -> settings -> Developer -> Edit Config
 tasklist | findstr /i claude
 taskkill /F /IM claude.exe
